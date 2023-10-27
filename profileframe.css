@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(#48C9B0 , #BB8FCE , #DD719F);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* Gulafshan Iqbal */
+.circle.small {
+    border: 20px solid #550728;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    z-index: 86;
+    background-image: url("selfie.jpg");
+    background-size: 300px 300px;
+    transition: 1.2s ease-out;
+}
+.circle.small:hover {
+    transform: scale(1.1);
+}
